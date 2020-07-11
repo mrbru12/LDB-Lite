@@ -1,0 +1,63 @@
+﻿  LDB-Lite.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(671,82): error C2665: 'std::pair<const std::string,LDBL::VarInfo>::pair': nenhuma das 2 sobrecargas pôde converter todos os tipos de argumentos
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\utility(169,5): message : poderia ser 'std::pair<const std::string,LDBL::VarInfo>::pair(std::pair<const std::string,LDBL::VarInfo> &&)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\utility(168,5): message : ou       'std::pair<const std::string,LDBL::VarInfo>::pair(const std::pair<const std::string,LDBL::VarInfo> &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(670,1): message : ao tentar corresponder a lista de argumentos '(LDBL::VarInfo)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(805): message : consulte a referência à instanciação 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,LDBL::VarInfo&>(_Alloc &,_Objty *const ,LDBL::VarInfo &)' do modelo que está sendo compilada
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,LDBL::VarInfo>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,LDBL::VarInfo>>>::void_pointer>>,
+              _Ty=std::pair<const std::string,LDBL::VarInfo>,
+              _Objty=std::pair<const std::string,LDBL::VarInfo>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(806): message : consulte a referência à instanciação 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,LDBL::VarInfo&>(_Alloc &,_Objty *const ,LDBL::VarInfo &)' do modelo que está sendo compilada
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,LDBL::VarInfo>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,LDBL::VarInfo>>>::void_pointer>>,
+              _Ty=std::pair<const std::string,LDBL::VarInfo>,
+              _Objty=std::pair<const std::string,LDBL::VarInfo>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(998): message : consulte a referência à instanciação 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const std::string,LDBL::VarInfo>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<LDBL::VarInfo&>(_Alnode &,std::_Tree_node<std::pair<const std::string,LDBL::VarInfo>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,LDBL::VarInfo &)' do modelo que está sendo compilada
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,LDBL::VarInfo>>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const std::string,LDBL::VarInfo>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,LDBL::VarInfo>>>::void_pointer>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(1014): message : consulte a referência à instanciação 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const std::string,LDBL::VarInfo>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<LDBL::VarInfo&>(_Alnode &,std::_Tree_node<std::pair<const std::string,LDBL::VarInfo>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,LDBL::VarInfo &)' do modelo que está sendo compilada
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,LDBL::VarInfo>>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const std::string,LDBL::VarInfo>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,LDBL::VarInfo>>>::void_pointer>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(1092): message : consulte a referência à instanciação 'std::pair<std::_Tree_node<std::pair<const std::string,LDBL::VarInfo>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<LDBL::VarInfo&>(LDBL::VarInfo &)' do modelo que está sendo compilada
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,LDBL::VarInfo>>,
+              _Kty=std::string,
+              _Ty=LDBL::VarInfo,
+              _Pr=std::less<std::string>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(1093): message : consulte a referência à instanciação 'std::pair<std::_Tree_node<std::pair<const std::string,LDBL::VarInfo>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<LDBL::VarInfo&>(LDBL::VarInfo &)' do modelo que está sendo compilada
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,LDBL::VarInfo>>,
+              _Kty=std::string,
+              _Ty=LDBL::VarInfo,
+              _Pr=std::less<std::string>
+          ]
+C:\Users\Pichau\Desktop\Joguitos\Projetos Lassados\C++\LDB-Lite\LDB-Lite\Source\LDB-Lite.cpp(262): message : consulte a referência à instanciação 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,LDBL::VarInfo>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<LDBL::VarInfo&>(LDBL::VarInfo &)' do modelo que está sendo compilada
+          with
+          [
+              _Kty=std::string,
+              _Ty=LDBL::VarInfo,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,LDBL::VarInfo>>
+          ]
+C:\Users\Pichau\Desktop\Joguitos\Projetos Lassados\C++\LDB-Lite\LDB-Lite\Source\LDB-Lite.cpp(262): message : consulte a referência à instanciação 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,LDBL::VarInfo>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<LDBL::VarInfo&>(LDBL::VarInfo &)' do modelo que está sendo compilada
+          with
+          [
+              _Kty=std::string,
+              _Ty=LDBL::VarInfo,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,LDBL::VarInfo>>
+          ]
